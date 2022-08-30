@@ -1,0 +1,99 @@
+body {
+    background-color: rgba(244, 238, 238, 0.382);
+    padding: 0;
+    margin: 0;
+    background-image: url("../imgs/27d40db5a1660fdb0fa5801845584d6f.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.Login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+    opacity: 1;
+    transition: ease-in-out 3s;
+}
+
+.imgLogin {
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: rgb(106, 12, 138);
+    box-shadow: 2px 2px 2px black;
+    cursor: pointer;
+    transition: ease-in-out 1s;
+}
+
+.imgLogin:hover {
+    transform: scale(1.04, 1.04);
+    filter: brightness(2);
+}
+
+.titleLogin {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(122, 25, 114);
+    text-shadow: 1px 2px 1px rgb(250, 4, 201);
+}
+
+.formLogin {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    transition: ease-in-out 3s;
+}
+
+.buttonsLogin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+}
+
+button {
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    border: none;
+    margin: 5px;
+    width: 110px;
+    height: 35px;
+    align-items: center;
+    background-color: rgb(159, 11, 204);
+    box-shadow: 2px 2px 2px black;
+    transition: all 0.5s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button:hover{
+    background-color: rgb(195, 0, 255);
+    opacity: 0.6;
+}
+
+form {
+    margin: 5px;
+}
+
+input {
+    width: 350px;
+    height: 40px;
+    outline: none;
+    border-radius: 5px;
+    opacity: 0.7;
+    background-color: azure;
+    transition: all 1s;
+}
+
+input:hover {
+    opacity: 1.5;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    border-color: rgb(255, 0, 225);
+}
